@@ -5,6 +5,7 @@ using System.Collections.Generic;
 // The SlotDef class is not a subclass of MonoBehaviour, so it doesn't need a
 // separate C# file.
 [System.Serializable] // This makes SlotDefs visible in the Unity Inspector pane
+/*
 public class SlotDef {
 	public float x;
 	public float y;
@@ -16,6 +17,7 @@ public class SlotDef {
 	public string type="slot";
 	public Vector2 stagger;
 }
+*/
 public class Layout : MonoBehaviour {
 	public PT_XMLReader xmlr; // Just like Deck, this has a PT_XMLReader
 	public PT_XMLHashtable xml; // This variable is for easier xml access
