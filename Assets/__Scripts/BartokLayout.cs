@@ -46,8 +46,8 @@ public class BartokLayout : MonoBehaviour {
 			} else { // If not, set its type to "slot" 
 				tSD.type = "slot"; 
 			} // Various attributes are parsed into numerical values 
-			tSD.x = float.Parse (slotsX [i].att ("x")); 
-			tSD.y = float.Parse (slotsX [i].att ("y")); 
+			tSD.x = float.Parse(slotsX[i].att ("x")); 
+			tSD.y = float.Parse(slotsX[i].att ("y")); 
 			tSD.pos = new Vector3 (tSD.x * multiplier.x, tSD.y * multiplier.y, 0); // Sorting Layers 
 			tSD.layerID = int.Parse (slotsX [i].att ("layer")); // In this game, the Sorting Layers are named 1, 2, 3, ... through 10 
 			// This converts the number of the layerID into a text layerName 
