@@ -9,7 +9,8 @@ public class SlotDef {
 	public bool faceUp = false; 
 	public string layerName ="Default"; 
 	public int layerID = 0; 
-	public int id; public List < int > hiddenBy = new List < int >(); // Unused in Bartok 
+	public int id; 
+	public List < int > hiddenBy = new List < int >(); // Unused in Bartok 
 	public float rot; // rotation of hands 
 	public string type ="slot"; 
 	public Vector2 stagger; 
